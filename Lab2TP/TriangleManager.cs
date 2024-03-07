@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Lab2TP.MainForm;
 
 namespace Lab2TP
 {

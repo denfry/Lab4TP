@@ -52,35 +52,12 @@
     <Compile Include="ArrayForm.Designer.cs">
       <DependentUpon>ArrayForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="InputForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="InputForm.Designer.cs">
-      <DependentUpon>InputForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="isoscelesTriangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResultForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ResultForm.Designer.cs">
-      <DependentUpon>ResultForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="TriangleManager.cs" />
     <EmbeddedResource Include="ArrayForm.resx">
       <DependentUpon>ArrayForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="InputForm.resx">
-      <DependentUpon>InputForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,9 +68,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ResultForm.resx">
-      <DependentUpon>ResultForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
